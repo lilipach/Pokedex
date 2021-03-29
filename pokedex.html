@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="pokedex_JQ.js"></script>
+    <title>Pokedex</title>
+  </head>
+  <body class="jumbotron">
+
+
+
+    <h2 class="display-2 pb-4">Pokedex</h2>
+
+    <nav id="#searchBar" class="navbar p-0 pb-4">
+      <form id="searchForm" class="form-inline w-100">
+        <input id="searchInput" class="form-control w-50 mr-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <!--Just a place holder-->
+    <div class="d-flex mb-4" id="pokemonBox"></div>
+
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-Kanto-tab" data-toggle="tab" href="#nav-Kanto" role="tab" aria-controls="nav-Kanto" aria-selected="true">Generation I: Kanto</a>
+        <a class="nav-item nav-link" id="nav-Johto-tab" data-toggle="tab" href="#nav-Johto" role="tab" aria-controls="nav-Johto" aria-selected="false">Generation II: Johto</a>
+        <a class="nav-item nav-link" id="nav-Hoenn-tab" data-toggle="tab" href="#nav-Hoenn" role="tab" aria-controls="nav-Hoenn" aria-selected="false">Generation III: Hoenn</a>
+        <a class="nav-item nav-link" id="nav-Sinnoh-tab" data-toggle="tab" href="#nav-Sinnoh" role="tab" aria-controls="nav-Sinnoh" aria-selected="false">Generation IV: Sinnoh</a>
+        <a class="nav-item nav-link" id="nav-Unova-tab" data-toggle="tab" href="#nav-Unova" role="tab" aria-controls="nav-Unova" aria-selected="false">Generation V: Unova</a>
+        <a class="nav-item nav-link" id="nav-Kalos-tab" data-toggle="tab" href="#nav-Kalos" role="tab" aria-controls="nav-Kalos" aria-selected="false">Generation VI: Kalos</a>
+        <a class="nav-item nav-link" id="nav-Alola-tab" data-toggle="tab" href="#nav-Alola" role="tab" aria-controls="nav-Alola" aria-selected="false">Generation VII: Alola</a>
+        <a class="nav-item nav-link" id="nav-Galar-tab" data-toggle="tab" href="#nav-Galar" role="tab" aria-controls="nav-Galar" aria-selected="false">Generation VIII: Galar</a>
+      </div>
+    </nav>
+
+    <!-- secondary container placed to prevent bootstrap tab-pne and flex container mixing -->
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-Kanto" role="tabpanel" aria-labelledby="nav-Kanto-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Kanto"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Johto" role="tabpanel" aria-labelledby="nav-Johto-tab">
+          <div class="d-flex flex-wrap justify-content-between pt-2" id="Johto"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Hoenn" role="tabpanel" aria-labelledby="nav-Hoenn-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Hoenn"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Sinnoh" role="tabpanel" aria-labelledby="nav-Sinnoh-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Sinnoh"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Unova" role="tabpanel" aria-labelledby="nav-Unova-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Unova"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Kalos" role="tabpanel" aria-labelledby="nav-Kalos-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Kalos"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Alola" role="tabpanel" aria-labelledby="nav-Alola-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Alola"></div>
+      </div>
+      <div class="tab-pane fade" id="nav-Galar" role="tabpanel" aria-labelledby="nav-Galar-tab">
+        <div class="d-flex flex-wrap justify-content-between pt-2" id="Galar"></div>
+      </div>
+    </div>
+
+  </body>
+</html>

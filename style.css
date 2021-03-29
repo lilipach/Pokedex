@@ -1,0 +1,92 @@
+.abilityBox{
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.abilities{
+    display: flex;
+    justify-content:left;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.normal{
+    background-color: rgb(145, 132, 116);
+}
+
+.fire{
+    background-color: rgb(255, 123, 0);
+}
+
+.water{
+    background-color: rgba(48, 144, 223, 0.678);
+}
+
+.grass{
+    background-color: rgb(27, 153, 86);
+}
+
+.electric{
+    background-color: rgb(238, 238, 50);
+}
+
+.ice{
+    background-color: rgb(122, 174, 209);
+}
+
+.fighting{
+    background-color: brown;
+}
+
+.poison{
+    background-color: purple;
+}
+
+.ground{
+    background-color: burlywood;
+}
+
+.flying{
+    background-color: thistle;
+}
+
+.psychic{
+    background-color: rgb(236, 134, 151);
+}
+
+.bug{
+    background-color: rgb(139, 177, 96);
+}
+
+.rock{
+    background-color: rgb(126, 122, 75);
+}
+
+.ghost{
+    background-color: rgb(99, 67, 112);
+}
+
+.dark{
+    background-color: rgb(56, 50, 32);
+}
+
+.dragon{
+    background-color: rgb(80, 30, 172);
+}
+
+.steel{
+    background-color: grey;
+}
+
+.fairy{
+    background-color: pink;
+}

@@ -4,3 +4,4 @@
 
 # Project Screenshot
 ![plotting your blocks](https://github.com/lilipach/Pokedex/blob/main/project_screenshot.png)
+

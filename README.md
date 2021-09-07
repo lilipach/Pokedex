@@ -1,5 +1,6 @@
 # Pokedex
 - Pokedex webpage made using the PokeAPI (https://pokeapi.co/docs/v2#info). 
+- catalogs differnt region pokemons and shows a brief description of each one.
 - Git Page: https://lilipach.github.io/Pokedex/
 
 # Project Screenshot
